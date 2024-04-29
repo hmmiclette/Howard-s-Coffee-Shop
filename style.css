@@ -1,0 +1,128 @@
+html {
+    background-color: grey;
+    color: white;
+  }
+  header {
+    height: 60px;
+    width: 100%;
+  }
+  header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lilita One";
+  }
+  a:hover {
+    cursor: pointer;
+    color: #A9A9A9;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .header {
+    font-size: 35px;
+    font-family: Lobster;
+    line-height: 2px;
+  }
+  .nav ul{
+    list-style: none;
+    display: flex;
+  }
+  .nav li{
+    padding-right: 10px;
+  }
+  .mission{
+   align-items: center;
+   background-color: transparent;
+  }
+  .banner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(https://www.businessload.com/wp-content/uploads/2020/06/How-To-Start-A-Dog-Cafe-Business-1536x864.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    }
+.mission {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    }
+ .title{
+    font-size: 50px;
+    font-family: Lobster;
+    }
+ .statement{
+    font-family: "Lilita One";
+    }
+    .gallery{
+      display: flex;
+      font-family: "Lobster";
+      width: 100%;
+      justify-content: center;
+    }
+    .gallery h1{
+        background-color: #dbc1ac;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .pictures {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    img{
+      display: inline;
+      height: 500px;
+      width: 500px;
+      overflow: hidden;
+      object-fit: cover;
+      padding: 5px;
+    }
+    img:hover{
+        cursor: pointer;
+        flex-grow: .4;
+    }
+    .about-me-container{
+        display: flex;
+        align-items: center;
+        border:  #dbc1ac solid 5px;
+        background-color: #dbc1ac;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .pic{
+        border: white solid 2px;
+        margin: 20px;
+} 
+.desc{
+    display: flex;
+    width: 250px;
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+}
+.come-visit{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.hi{
+    margin: 20px;
+}
+.hours li{
+    list-style: none;
+    justify-content: center;
+}
+#map img{
+    width: 300px;
+    height: 300px;
+}
+.text{
+    align-content: center;
+    margin-right: 25px;
+}
